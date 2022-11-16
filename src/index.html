@@ -26,19 +26,29 @@
   <body>
     <main>
       <!-- To find main in ts-->
-      <div id="main" class="wrapper">
+      <div class="wrapper">
+        <div id="main"></div>
         <div id="menu" class="menu">
-          <ul>
-            <li>Todo List Program</li>
-            <li>Search for Movies</li>
-            <li>Find Max</li>
-          </ul>
+          <button class="menuBtn">
+            <img src="assets/folder-win-98.png" class="menuBtn__logo" />Todo
+          </button>
+
+          <button class="menuBtn" id="omdbBtn">
+            <img src="assets/folder-win-98.png" class="menuBtn__logo" />
+            Search For Movies
+          </button>
+
+          <button class="menuBtn">
+            <img src="assets/folder-win-98.png" class="menuBtn__logo" />
+            Max Icons
+          </button>
         </div>
         <footer class="navbar">
           <button id="programMenu" class="program__btn">
             <img src="assets/win-98-logo.png" class="program__btn--logo" />
             Start
           </button>
+          <span id="date" class="date">TIME</span>
         </footer>
       </div>
     </main>
